@@ -2,12 +2,12 @@
 <testng-results skipped="0" failed="1" ignored="0" total="1" passed="0">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="138220" started-at="2018-08-18T17:44:26Z" finished-at="2018-08-18T17:46:44Z">
+  <suite name="Default suite" duration-ms="160589" started-at="2018-08-18T17:58:53Z" finished-at="2018-08-18T18:01:33Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="138220" started-at="2018-08-18T17:44:26Z" finished-at="2018-08-18T17:46:44Z">
+    <test name="Default test" duration-ms="160589" started-at="2018-08-18T17:58:53Z" finished-at="2018-08-18T18:01:33Z">
       <class name="gmailTest.Login">
-        <test-method status="FAIL" signature="method1()[pri:0, instance:gmailTest.Login@e25b2fe]" name="method1" duration-ms="138185" started-at="2018-08-18T23:14:26Z" finished-at="2018-08-18T23:16:44Z">
+        <test-method status="FAIL" signature="method1()[pri:0, instance:gmailTest.Login@e25b2fe]" name="method1" duration-ms="160546" started-at="2018-08-18T23:28:53Z" finished-at="2018-08-18T23:31:33Z">
           <exception class="org.openqa.selenium.NoSuchElementException">
             <message>
               <![CDATA[no such element: Unable to locate element: {"method":"xpath","selector":"//*[@class = 'gb_8a gbii']"}
@@ -18,8 +18,8 @@ For documentation on this error, please visit: http://seleniumhq.org/exceptions/
 Build info: version: '3.5.3', revision: 'a88d25fe6b', time: '2017-08-29T12:42:44.417Z'
 System info: host: 'HP', ip: '192.168.0.10', os.name: 'Windows 8', os.arch: 'amd64', os.version: '6.2', java.version: '1.8.0_131'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities [{mobileEmulationEnabled=false, hasTouchScreen=false, platform=WIN8, acceptSslCerts=false, acceptInsecureCerts=false, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, platformName=WIN8, setWindowRect=true, unexpectedAlertBehaviour=, applicationCacheEnabled=false, rotatable=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.35.528161 (5b82f2d2aae0ca24b877009200ced9065a772e73), userDataDir=C:\Users\HOME\AppData\Local\Temp\scoped_dir764_11679}, takesHeapSnapshot=true, pageLoadStrategy=normal, unhandledPromptBehavior=, databaseEnabled=false, handlesAlerts=true, version=68.0.3440.106, browserConnectionEnabled=false, nativeEvents=true, locationContextEnabled=true, cssSelectorsEnabled=true}]
-Session ID: 4e4b0b83a992edc6f36898710f864d42
+Capabilities [{mobileEmulationEnabled=false, hasTouchScreen=false, platform=WIN8, acceptSslCerts=false, acceptInsecureCerts=false, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, platformName=WIN8, setWindowRect=true, unexpectedAlertBehaviour=, applicationCacheEnabled=false, rotatable=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.35.528161 (5b82f2d2aae0ca24b877009200ced9065a772e73), userDataDir=C:\Users\HOME\AppData\Local\Temp\scoped_dir5272_30513}, takesHeapSnapshot=true, pageLoadStrategy=normal, unhandledPromptBehavior=, databaseEnabled=false, handlesAlerts=true, version=68.0.3440.106, browserConnectionEnabled=false, nativeEvents=true, locationContextEnabled=true, cssSelectorsEnabled=true}]
+Session ID: 391c434079bec960c0919263502fa005
 *** Element info: {Using=xpath, value=//*[@class = 'gb_8a gbii']}]]>
             </message>
             <full-stacktrace>
@@ -31,8 +31,8 @@ For documentation on this error, please visit: http://seleniumhq.org/exceptions/
 Build info: version: '3.5.3', revision: 'a88d25fe6b', time: '2017-08-29T12:42:44.417Z'
 System info: host: 'HP', ip: '192.168.0.10', os.name: 'Windows 8', os.arch: 'amd64', os.version: '6.2', java.version: '1.8.0_131'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities [{mobileEmulationEnabled=false, hasTouchScreen=false, platform=WIN8, acceptSslCerts=false, acceptInsecureCerts=false, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, platformName=WIN8, setWindowRect=true, unexpectedAlertBehaviour=, applicationCacheEnabled=false, rotatable=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.35.528161 (5b82f2d2aae0ca24b877009200ced9065a772e73), userDataDir=C:\Users\HOME\AppData\Local\Temp\scoped_dir764_11679}, takesHeapSnapshot=true, pageLoadStrategy=normal, unhandledPromptBehavior=, databaseEnabled=false, handlesAlerts=true, version=68.0.3440.106, browserConnectionEnabled=false, nativeEvents=true, locationContextEnabled=true, cssSelectorsEnabled=true}]
-Session ID: 4e4b0b83a992edc6f36898710f864d42
+Capabilities [{mobileEmulationEnabled=false, hasTouchScreen=false, platform=WIN8, acceptSslCerts=false, acceptInsecureCerts=false, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, platformName=WIN8, setWindowRect=true, unexpectedAlertBehaviour=, applicationCacheEnabled=false, rotatable=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.35.528161 (5b82f2d2aae0ca24b877009200ced9065a772e73), userDataDir=C:\Users\HOME\AppData\Local\Temp\scoped_dir5272_30513}, takesHeapSnapshot=true, pageLoadStrategy=normal, unhandledPromptBehavior=, databaseEnabled=false, handlesAlerts=true, version=68.0.3440.106, browserConnectionEnabled=false, nativeEvents=true, locationContextEnabled=true, cssSelectorsEnabled=true}]
+Session ID: 391c434079bec960c0919263502fa005
 *** Element info: {Using=xpath, value=//*[@class = 'gb_8a gbii']}
 	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
 	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
