@@ -20,13 +20,14 @@ public class Login {
 		driver.findElement(By.name("password")).sendKeys("8985383171",Keys.ENTER);
 		driver.manage().timeouts().implicitlyWait(120, TimeUnit.SECONDS);
 		
-		driver.findElement(By.xpath("//*[@class = 'gb_8a gbii']")).click();
+		//driver.findElement(By.xpath("//*[@class = 'gb_8a gbii']")).click();
 		driver.findElement(By.xpath("//*[text() ='Compose']")).click();
 		driver.findElement(By.name("to"))
 		.sendKeys("sruthitenneti431@gmail.com",Keys.ENTER, Keys.TAB, "Hii", Keys.TAB, "Hello!!");
 		driver.findElement(By.xpath("//div[text()='Send']")).click();
 
 
+		
 		
 		
 		
